@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Holiday | Juan Bagas Geraldo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=Public+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header & navigasi (sama di semua halaman, menempel di atas saat scroll) -->
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">The<span>.</span>Story Of Me</a>
+      <nav aria-label="Navigasi utama">
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="biodata.html">Biodata</a></li>
+          <li><a href="myHoliday.html" class="active" aria-current="page">My Holiday</a></li>
+          <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+      <h2 class="page-title big">My Holiday</h2>
+      <p>Libur semester kemarin saya habiskan berkeliling Jawa Barat bersama keluarga dan beberapa teman. Tidak ada rencana ketat, kami cuma menyetir, berhenti di tempat yang terlihat menarik, dan makan di warung yang ramai. Berikut beberapa foto yang paling saya ingat.</p>
+
+      <!-- Galeri: Flexbox (display:flex, flex-wrap, justify-content, align-items, gap) -->
+      <ul class="gallery">
+        <li><figure><img src="images/perjalanan-pagi.jpg" alt="Jalan raya berpepohonan rindang di bawah langit biru saat perjalanan pagi" loading="lazy"><figcaption><strong>Perjalanan pagi</strong>Perjalanan ini dilakukan pagi hari dengan alam yang indah dan sejuk.</figcaption></figure></li>
+        <li><figure><img src="images/sunset-ring-basket.jpg" alt="Siluet ring basket dengan langit senja di lapangan UNAI" loading="lazy"><figcaption><strong>Sunset di bawah ring basket</strong>Saya dan teman pergi keluar untuk melihat sunset yang indah di bawah ring basket.</figcaption></figure></li>
+        <li><figure><img src="images/outfit-batik.jpg" alt="Juan berfoto di cermin memakai kemeja batik hitam" loading="lazy"><figcaption><strong>Outfit Sabbath</strong>Kemeja batik ini jadi andalan saya untuk hari Sabbath.</figcaption></figure></li>
+        <li><figure><img src="images/selesai-jogging.jpg" alt="Tiga orang berdiri di depan cermin cembung di pinggir jalan setelah jogging" loading="lazy"><figcaption><strong>Selesai jogging sore</strong>Foto ini diambil setelah olahraga sore di sekitar lapangan UNAI.</figcaption></figure></li>
+        <li><figure><img src="images/foto-cermin-teman.jpg" alt="Juan berfoto bersama dua teman di depan cermin" loading="lazy"><figcaption><strong>Foto cermin bersama teman</strong>Sore itu saya mengajak teman-teman berfoto di cermin Hall lantai 2.</figcaption></figure></li>
+        <li><figure><img src="images/anjing-kesayangan.jpg" alt="Anjing putih berbulu lebat digendong di bahu pemiliknya" loading="lazy"><figcaption><strong>Hewan kesayangan</strong>Foto ini diambil setelah saya mengajak anjing saya jalan sore.</figcaption></figure></li>
+        <li><figure><img src="images/profile.jpg" alt="Juan memakai sweater hijau muda berfoto di depan papan pengumuman" loading="lazy"><figcaption><strong>Santai di kampus</strong>Satu foto santai di sela kegiatan liburan di area kampus.</figcaption></figure></li>
+      </ul>
+    </div>
+  </main>
+
+  <!-- Footer (sama di semua halaman) -->
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>&copy; 2026 Juan Bagas Geraldo. Dibuat untuk Proyek Tengah Semester.</span>
+      <span>Kontak: <a href="mailto:bagasjuan2006@gmail.com">bagasjuan2006@gmail.com</a></span>
+    </div>
+  </footer>
+</body>
+</html>

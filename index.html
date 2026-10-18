@@ -3,38 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Personal Tentang Saya | Personal Website</title>
+  <title>Home | Juan Bagas Geraldo</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=Public+Sans:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Header & navigasi (menempel di atas saat scroll) -->
+  <!-- Header & navigasi (sama di semua halaman, menempel di atas saat scroll) -->
   <header class="site-header">
     <div class="wrap">
-      <a class="brand" href="#home">The<span>.</span>Story Of Me</a>
+      <a class="brand" href="index.html">The<span>.</span>Story Of Me</a>
       <nav aria-label="Navigasi utama">
         <ul class="nav">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#biodata">Biodata</a></li>
-          <li><a href="#holiday">My Holiday</a></li>
-          <li><a href="#contact">Contact Me</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <main>
-    <!-- ===== HOME ===== -->
-    <section id="home" class="panel"><div class="wrap">
-      <a class="brand" href="#home">Bio<span>.</span>Data Tentang Saya</a>
-      <nav aria-label="Navigasi utama">
-        <ul class="nav">
-          <li><a href="#home" class="active" aria-current="page">Home</a></li>
-          <li><a href="#biodata" >Biodata</a></li>
-          <li><a href="#holiday" >My Holiday</a></li>
-          <li><a href="#contact" >Contact Me</a></li>
+          <li><a href="index.html" class="active" aria-current="page">Home</a></li>
+          <li><a href="biodata.html">Biodata</a></li>
+          <li><a href="myHoliday.html">My Holiday</a></li>
+          <li><a href="contact.html">Contact Me</a></li>
         </ul>
       </nav>
     </div>
@@ -49,188 +34,26 @@
           <p>Mahasiswa Program Studi Teknik Informatika yang senang membuat sesuatu dari nol, mulai dari tampilan web sederhana sampai ide-ide kecil yang awalnya cuma coretan di buku catatan. Di luar kampus, saya suka bermain gitar, menjelajah tempat baru, dan mencari kedai kopi yang tenang buat mengerjakan tugas.</p>
           <p>Website ini adalah rumah kecil saya di internet. Silakan masuk dan lihat-lihat.</p>
           <div class="btn-row">
-            <a class="btn btn-main" href="#biodata">Kenali saya lebih dekat</a>
-            <a class="btn btn-line" href="#contact">Kirim pesan</a>
+            <a class="btn btn-main" href="biodata.html">Kenali saya lebih dekat</a>
+            <a class="btn btn-line" href="contact.html">Kirim pesan</a>
           </div>
         </div>
+        <!-- Foto hero (responsif, tidak overflow) -->
+        <figure class="hero-photo">
+          <img src="images/outfit-batik.jpg" alt="Foto Juan Bagas Geraldo mengenakan kemeja batik">
+        </figure>
       </section>
 
       <!-- Ringkasan singkat -->
       <section class="highlights" aria-label="Sekilas tentang saya">
-        <div><h3>Kuliah</h3><p>Semester 3, Teknik Informatika, Universitas Contoh.</p></div>
+        <div><h3>Kuliah</h3><p>Semester 3, Teknik Informatika, Universitas Advent Indonesia.</p></div>
         <div><h3>Sedang dipelajari</h3><p>HTML, CSS, dan dasar-dasar desain antarmuka.</p></div>
         <div><h3>Cita-cita</h3><p>Menjadi web developer yang karyanya dipakai banyak orang.</p></div>
       </section>
-    </div></section>
-
-    <!-- ===== BIODATA ===== -->
-    <section id="biodata" class="panel alt"><div class="wrap">
-      <a class="brand" href="#home">The<span>.</span>Story Of Me</a>
-      <nav aria-label="Navigasi utama">
-        <ul class="nav">
-          <li><a href="#home" >Home</a></li>
-          <li><a href="#biodata" class="active" aria-current="page">Biodata</a></li>
-          <li><a href="#holiday" >My Holiday</a></li>
-          <li><a href="#contact" >Contact Me</a></li>
-        </ul>
-      </nav>
     </div>
-  </header>
-
-  <main>
-    <div class="wrap">
-      <h2 class="page-title big">Biodata</h2>
-
-      <!-- Profil utama -->
-      <article class="profile">
-        <img class="profile-photo" src="C:\ProjectMid\WhatsApp Image 2026-10-17 at 20.25.24.jpeg" alt="Pas foto Nama Lengkap Kamu" width="600" height="800">
-        <div>
-          <h2>Juan Bagas Geraldo</h2>
-          <dl class="data-list">
-            <dt>NIM</dt><dd>2025123456</dd>
-            <dt>Program Studi</dt><dd>Teknik Informatika</dd>
-            <dt>Kampus</dt><dd>Universitas Contoh</dd>
-            <dt>Asal</dt><dd>Bandung Barat, Jawa Barat</dd>
-          </dl>
-        </div>
-      </article>
-
-      <!-- Biografi -->
-      <section class="section-box">
-        <h2>Tentang saya</h2>
-        <p>Saya anak yang gampang penasaran. Awalnya masuk jurusan ini karena ingin tahu bagaimana sebuah situs bisa tampil di layar, dan rasa penasaran itu belum habis sampai sekarang. Teman-teman biasanya menyebut saya orang yang tenang, tapi cerewet kalau sudah membahas hal yang disukai.</p>
-        <p>Target saya dalam beberapa tahun ke depan sederhana: lulus tepat waktu, punya portofolio yang bisa dibanggakan, dan bisa bekerja di tim yang mau saling belajar.</p>
-      </section>
-
-      <!-- Hobi -->
-      <section class="section-box">
-        <h2>Hobi dan minat</h2>
-        <div class="two-col">
-          <div class="card">
-            <h3>Hobi favorit Saya</h3>
-            <p>Diurutkan dari yang paling sering saya lakukan.</p>
-            <ol>
-              <li><strong>Bermain gitar.</strong> Biasanya malam hari, lagu akustik santai.</li>
-              <li><strong>Jalan-jalan.</strong> Suka tempat yang berhawa sejuk dan sepi.</li>
-              <li><strong>Fotografi ponsel.</strong> Memotret langit sore dan jalanan kota.</li>
-            </ol>
-          </div>
-          <div class="card">
-            <h3>Hal lain yang saya suka</h3>
-            <p>Tidak berurutan, semuanya sama serunya.</p>
-            <ul>
-              <li><strong>Ngoding kecil-kecilan.</strong> Membuat halaman web untuk iseng.</li>
-              <li><strong>Membaca.</strong> Dari buku desain sampai novel ringan.</li>
-              <li><strong>Mencoba kopi baru.</strong> Selalu ada kedai baru yang layak dicoba.</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <!-- Akademik -->
-      <section class="section-box">
-        <h2>Riwayat pendidikan</h2>
-        <div class="table-scroll">
-          <table>
-            <caption>Sekolah yang pernah saya tempuh dan tahun kelulusannya</caption>
-            <thead>
-              <tr><th scope="col">No</th><th scope="col">Jenjang</th><th scope="col">Nama Sekolah</th><th scope="col">Lulusan Angkatan</th></tr>
-            </thead>
-            <tbody>
-              <tr><td>1</td><td>SD</td><td>SD Negeri 14 Pagi</td><td>2014</td></tr>
-              <tr><td>2</td><td>SMP</td><td>SMP Cengkareng 1</td><td>2017</td></tr>
-              <tr><td>3</td><td>SMA/SMK</td><td>SMK Cengkareng 1</td><td>2020</td></tr>
-              <tr><td>4</td><td>Perguruan Tinggi</td><td>Universitas Advent Indonesia</td><td>Angkatan 2024</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-    </div></section>
-
-    <!-- ===== MY HOLIDAY ===== -->
-    <section id="holiday" class="panel"><div class="wrap">
-      <a class="brand" href="#home">The<span>.</span>Story Of Me</a>
-      <nav aria-label="Navigasi utama">
-        <ul class="nav">
-          <li><a href="#home" >Home</a></li>
-          <li><a href="#biodata" >Biodata</a></li>
-          <li><a href="#holiday" class="active" aria-current="page">My Holiday</a></li>
-          <li><a href="#contact" >Contact Me</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <main>
-    <div class="wrap">
-      <h2 class="page-title big">My Holiday</h2>
-      <p>Libur semester kemarin saya habiskan berkeliling Jawa Barat bersama keluarga dan beberapa teman. Tidak ada rencana ketat, kami cuma menyetir, berhenti di tempat yang terlihat menarik, dan makan di warung yang ramai. Berikut beberapa foto yang paling saya ingat.</p>
-
-      <!-- Galeri: Flexbox (display:flex, flex-wrap, justify-content, align-items, gap) -->
-      <ul class="gallery">
-        <li style="display:contents"><figure><img src="C:\ProjectMid\WhatsApp Image 2026-10-17 at 20.49.03.jpeg" alt="Perjalanan menuju kebun teh" loading="lazy"><figcaption><strong>perjalanan ini</strong>di lakukakn pagi hari dengan alam yg indah dan sejuk.</figcaption></figure></li>
-        <li style="display:contents"><figure><img src="C:\ProjectMid\WhatsApp Image 2026-10-17 at 20.25.49.jpeg" alt="Sunset Di Ring Basket" loading="lazy"><figcaption><strong>Waktu Sore itu</strong>Saya Dan Teman saya pergi keluar untuk melihat Sunset Yang Indah di bawah Ring Basket.</figcaption></figure></li>
-        <li style="display:contents"><figure><img src="C:\ProjectMid\WhatsApp Image 2026-10-17 at 20.26.23.jpeg" alt="Outfit Sabbath" loading="lazy"><figcaption><strong>Outfit Sabbath</strong>Saya Sangat Cocok Sekali Memakai Kemeja Batik.</figcaption></figure></li>
-        <li style="display:contents"><figure><img src="C:\ProjectMid\WhatsApp Image 2026-10-17 at 20.26.39.jpeg" alt="Foto Selesai Joging" loading="lazy"><figcaption><strong>Selesai Joging Sore</strong>Foto itu di ambil setelah selesai melakukan olahraga sore di lapangan unai.</figcaption></figure></li>
-        <li style="display:contents"><figure><img src="C:\ProjectMid\WhatsApp Image 2026-10-17 at 20.26.54.jpeg" alt="Foto Miror Bersama Teman" loading="lazy"><figcaption><strong>Sore itu</strong>Saya Mengajak Teman Saya Untuk Foto Miror Di cermin Hall lantai 2.</figcaption></figure></li>
-        <li style="display:contents"><figure><img src="C:\ProjectMid\WhatsApp Image 2026-10-17 at 20.28.11.jpeg" alt="Foto Dengan Hewan Kesayangan" loading="lazy"><figcaption><strong>Foto Dengan Hewan Kesayangan</strong>Hasil itu diambil setelah saya mengajak jalan sore Anjing Saya.</figcaption></figure></li>
-      </ul>
-    </div></section>
-
-    <!-- ===== CONTACT ME ===== -->
-    <section id="contact" class="panel alt"><div class="wrap">
-      <a class="brand" href="#home">The<span>.</span>Story Of Me</a>
-      <nav aria-label="Navigasi utama">
-        <ul class="nav">
-          <li><a href="#home" >Home</a></li>
-          <li><a href="#biodata" >Biodata</a></li>
-          <li><a href="#holiday" >My Holiday</a></li>
-          <li><a href="#contact" class="active" aria-current="page">Contact Me</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <main>
-    <div class="wrap">
-      <h2 class="page-title big">Contact Me</h2>
-      <p>Ada pertanyaan, ajakan kolaborasi, atau sekadar ingin menyapa? Tulis saja pesannya, saya usahakan membalas secepatnya.</p>
-
-      <div class="contact-grid">
-        <!-- Formulir: membuka aplikasi email lewat mailto -->
-        <section class="card form-card" aria-labelledby="judul-form">
-          <h2 id="judul-form">Kirim pesan</h2>
-          <form action="mailto:bagasjuan2006@gmail.com" method="post" enctype="text/plain">
-            <label for="nama">Nama lengkap</label>
-            <input type="text" id="nama" name="nama" minlength="3" required autocomplete="name">
-
-            <label for="email">Alamat email</label>
-            <input type="email" id="email" name="email" required autocomplete="email">
-
-            <label for="subjek">Subjek</label>
-            <input type="text" id="subjek" name="subjek" minlength="3" required>
-
-            <label for="pesan">Pesan</label>
-            <textarea id="pesan" name="pesan" minlength="10" required></textarea>
-
-            <button type="submit" class="btn btn-main">Send Message</button>
-          </form>
-        </section>
-
-        <!-- Info kontak -->
-        <aside class="card" aria-labelledby="judul-info">
-          <h2 id="judul-info">Temukan saya di</h2>
-          <ul class="contact-list">
-            <li><small>Email</small><a href="mailto:bagasjuan2006@gmail.com">bagasjuan2006@gmail.com</a></li>
-            <li><small>Instagram</small><a href="https://www.instagram.com/bjovgjh" target="_blank" rel="noopener">@bagasjuan2006</a></li>
-            <li><small>GitHub</small><a href="https://github.com/juanbagas" target="_blank" rel="noopener">github.com/bagasjuan2006</a></li>
-          </ul>
-        </aside>
-      </div>
-    </div></section>
   </main>
 
-  <!-- Footer -->
+  <!-- Footer (sama di semua halaman) -->
   <footer class="site-footer">
     <div class="wrap">
       <span>&copy; 2026 Juan Bagas Geraldo. Dibuat untuk Proyek Tengah Semester.</span>
